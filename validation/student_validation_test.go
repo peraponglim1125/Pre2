@@ -31,7 +31,7 @@ func TestStudent_Fullname_Required(t *testing.T) {
 		Email:    "test@example.com",
 		GPA:      3.00,
 	}
-
+//วัดี
 	ok, err := entity.ValidateStudent(&student)
 	g.Expect(ok).To(BeFalse())
 	g.Expect(err.Error()).To(Equal("Fullname is required"))
