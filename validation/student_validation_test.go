@@ -32,7 +32,7 @@ func TestStudent_Fullname_Required(t *testing.T) {
 		GPA:      3.00,
 	}
 //วัดี
-//0hk
+//0hk5555555555
 	ok, err := entity.ValidateStudent(&student)
 	g.Expect(ok).To(BeFalse())
 	g.Expect(err.Error()).To(Equal("Fullname is required"))
